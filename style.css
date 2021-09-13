@@ -1,0 +1,216 @@
+.container{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 0px auto;
+}
+.nav{
+    height: 25px;
+    border-bottom: 1px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    height: 350px;
+    width: 400px;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex: 2;
+    margin: 10px;
+    margin-left: 50px;
+    height: 280px;
+}
+.col-2{
+    flex: 1;
+    margin: 10px;
+    margin-right: 50px;
+    height: 250px;
+}
+.part3bar{
+    height: 15px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.part3content{
+    height: 50px;
+    border: 1px solid grey;
+}
+.part4bar{
+    height: 15px;
+    border: 1px solid black;
+    position: relative;
+    bottom: -20px;
+    color: white;
+    background-color: black;
+}
+.part4content{
+    height: 100px;
+    border: 1px solid grey;
+    position: relative;
+    bottom: -20px;
+}
+.part4footer{
+    height: 15px;
+    border: 1px solid grey;
+    position: relative;
+    bottom: -20px;
+}
+.part1bar{
+    height: 40px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+.part1content{
+    height: 100px;
+    border: 1px solid grey;
+}
+.part2bar{
+    height: 15px;
+    border: 1px solid black;
+    position: relative;
+    bottom: -20px;
+    color: white;
+    background-color: black;
+}
+.part2content{
+    height: 100px;
+    border: 1px solid grey;
+    position: relative;
+    bottom: -20px;
+}
+.userimage img{
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 100%;
+    border: solid white 2px;
+}
+.part1content h3{
+    margin-left: 15px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.mapicon img{
+    height: 8px;
+    width: 5px;
+}
+.mapicon {
+    font-size: 10px ;
+    position: relative;
+    bottom: 10px;
+    margin-left: 15px;
+}
+.part1content p{
+    font-size: 8px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 20px;
+}
+.editpic img{
+    height: 5px;
+    width: 5px;
+    margin-left: 15px;
+
+}
+.editpic h4{
+    color: blue;
+    text-decoration: underline;
+    font-size: 8px;
+    position: relative;
+    bottom: 20px;
+}
+.part3bar p{
+    font-size: 7px;
+    position: relative;
+    bottom: 4px;
+}
+.part3content td{
+    font-size: 8px;
+}
+.part3content table{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.part3content img{
+    height: 12px;
+    width: 12px;
+}
+.part4bar p{
+    font-size: 7px;
+    position: relative;
+    bottom: 4px;
+    text-align: center;
+}
+.part4content td{
+    font-size: 8px;
+}
+.part4content table{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.part4content img{
+    height: 12px;
+    width: 12px;
+}
+.part4footer p{
+    font-size: 7px;
+    position: relative;
+    bottom: 4px;
+    left: 4px;
+    text-decoration: underline;
+    color: blue;
+}
+.part2bar p{
+    font-size: 7px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 3px;
+}
+.part2content p{
+    font-size: 8px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+#line2{
+    color: grey;
+    font-size: 7px;
+}
+.part2content line3{
+    font-size: 7px;
+}
+.nav-links{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    font-size: 8px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: -50px;
+    top: 4px;
+}
+.btn{
+    color: white;
+    background-color: cornflowerblue;
+    height: 15px;
+    width: 40px;
+    font-size: 6px;
+    margin-right: 30px;
+}
+.nav-title{
+    color: white;
+    font-size: 12px;
+    margin-left: 50px;
+}
